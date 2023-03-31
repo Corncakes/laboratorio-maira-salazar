@@ -1,0 +1,8 @@
+# Schema for the configuration files of the MS User Assign module.
+ms_user_assign.settings:
+  type: config_object
+  label: 'MS User Assign settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

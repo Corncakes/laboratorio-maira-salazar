@@ -1,0 +1,6 @@
+ms_user_assign.settings_form:
+  title: 'MS User Assign'
+  description: 'Configure MS User Assign.'
+  parent: system.admin_config_system
+  route_name: ms_user_assign.settings_form
+  weight: 10

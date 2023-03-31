@@ -1,0 +1,5 @@
+name: MS User Assign
+type: module
+description: Asigna usuarios a nodos, si no existen los crea
+package: Custom
+core_version_requirement: ^9 || ^10

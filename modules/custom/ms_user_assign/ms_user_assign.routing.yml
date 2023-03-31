@@ -1,0 +1,15 @@
+ms_user_assign.example:
+  path: '/ms-user-assign/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\ms_user_assign\Controller\MsUserAssignController::build'
+  requirements:
+    _permission: 'access content'
+
+ms_user_assign.settings_form:
+  path: '/admin/config/system/ms-user-assign'
+  defaults:
+    _title: 'MS User Assign settings'
+    _form: 'Drupal\ms_user_assign\Form\SettingsForm'
+  requirements:
+    _permission: 'administer ms_user_assign configuration'
