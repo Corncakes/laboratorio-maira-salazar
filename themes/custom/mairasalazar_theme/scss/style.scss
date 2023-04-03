@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5, h6 {
     color: $secondary;
 }
 
+.main-content, .highlighted > aside {
+    padding: 0;
+}
+
 /* LOCAL TASKS 
 --------------------------------------------------*/
 
@@ -835,6 +839,7 @@ footer {
                 border: 0;
                 background: #ffffff;
                 margin: 0 0.5rem !important;
+                flex: none;
 
                 &:first-child {
                     margin-right: 0.5rem;
@@ -969,5 +974,25 @@ footer {
 
     #block-mairasalazar-theme-main-menu {
         padding: 2rem 2rem 1rem 2rem;
+    }
+
+    .form-texto-container .texto-container-overlay-gradient .paragraph--type--icono-con-texto .fontawesome-icons {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    .form-texto-container .texto-container-overlay-gradient .paragraph--type--icono-con-texto {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .tns-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-slider .tns-nav {
+        left: inherit;
     }
 }
