@@ -801,9 +801,9 @@ footer {
 
     .tns-nav {
         position: absolute;
-        bottom: 10px;
+        bottom: -35px;
         left: 48%;
-        background: #ffffff85;
+        background: rgb(0 0 0 / 19%);
         padding: 0.4rem;
         border-radius: 25px;
         line-height: 1;
@@ -837,12 +837,12 @@ footer {
             
             &:first-child {
                 position: absolute;
-                left: 0;
+                left: -4rem;
                 top: 45%;
             }
             &:last-child {
                 position: absolute;
-                right: 0;
+                right: -4rem;
                 top: 45%;
             }
         }
