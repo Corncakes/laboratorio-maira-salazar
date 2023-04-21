@@ -23,6 +23,19 @@
         "mouseDrag": true,
         controlsText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
       });
+
+      var aliadosSlider = tns({ 
+        container: '.aliados-slider',
+        mode: 'carousel',
+        autoplay: true,
+        loop: true,
+        controlsPosition: 'bottom',
+        gutter: 20,
+        items: 6,
+        navPosition: 'bottom',
+        mouseDrag: true,
+        controlsText: ['<i class="fa-solid fa-chevron-left"></i>','<i class="fa-solid fa-chevron-right"></i>'],
+      });
     }
   }
 
